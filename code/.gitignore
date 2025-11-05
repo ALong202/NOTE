@@ -1,0 +1,27 @@
+# Ignore file batch (Windows)
+*.bat
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore temporary / build folders
+dist/
+build/
+out/
+temp/
+tmp/
+
+# Ignore logs
+*.log
+
+# Ignore VSCode settings (nếu có)
+.vscode/
+
+# Ignore backup files
+*.bak
+*.tmp
