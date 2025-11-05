@@ -1,3 +1,6 @@
+# async/await
+
+
 `async/await` là cú pháp để **làm việc với Promise** theo style tuần tự (synchronous-looking) nhưng vẫn là **bất đồng bộ, không chặn event loop**.
 
 - `async function f(){...}` trả về một `Promise`.

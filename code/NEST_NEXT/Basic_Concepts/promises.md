@@ -1,4 +1,4 @@
-# **promises**
+# promises
 
 **Javascript** là một ngôn ngữ lập trình đơn luồng, có nghĩa là chỉ có thể có một điều có thế xảy ra tại một không đồng bộ (`asynchronous`) ví dụ như `netword request`. Sử dụng `Promise` chúng ta có thể tránh được `callback hell` khét tiếng và làm cho code trông sạch hơn dễ đọc và dễ hiểu hơn. Giả sử chúng ta đang muốn lấy dữ liệu một cách không đồng bộ bằng cách sử dụng `callback` như sau:
 
@@ -46,6 +46,7 @@ Promise cũng giống như lời hứa trong thực tế có 3 trạng thái: ch
 - **Unresolved or Pending** - `Promise` đang chờ xử lý nếu kết quả chưa sẵn sàng.  
 - **Resolved or Fulfilled** - `Promise` được giải quyết nếu có kết quả.  
 - **Rejected** - `Promise` bị từ chối nếu xảy ra lỗi.  
+
 # **Creating a Promise**
 
 Hầu hết, các bạn sẽ sử dụng những `promise` hơn là tạo ra chúng, nhưng điều quan trọng vẫn là bạn phải biết cách tạo ra chúng.
@@ -61,6 +62,7 @@ Chúng tôi tạo một `Promise` mới bằng cách khởi tạo hàm khởi 
 Hàm thực thi được thực thi ngay lập tức khi một `promise` được tạo. `Promise` được giải quyết bằng cách gọi `resolve()` và từ chối bằng cách gọi `reject()`.
 
 Ví dụ:
+
 ```js
 const promise = new Promise((resolve, reject) => {
   if(allWentWell) {
@@ -74,6 +76,7 @@ const promise = new Promise((resolve, reject) => {
 `resolve()` và `reject()` nhận một đối số có thể là một `string`, `number`, `boolean`, `array` hoặc `object`.
 
 Hãy xem một ví dụ khác để hiểu đầy đủ về việc tạo `Promise`.
+
 ```js
 const promise = new Promise((resolve, reject) => {
   const randomNumber = Math.random();
@@ -96,6 +99,7 @@ Khi Promise được tạo, nó sẽ ở trạng thái chờ xử lý và giá t
 Sau khi bộ đếm thời gian 2 giây kết thúc, `promise` được giải quyết hoặc bị từ chối một cách ngẫu nhiên và giá trị của nó sẽ là giá trị được chuyển đến chức năng `resolved` hoặc `reject`. Ví dụ:
 
 **Lưu ý** - Lời hứa chỉ có thể được giải quyết hoặc bị từ chối một lần. Việc gọi thêm `resolve()` hoặc `reject()` không có tác dụng đối với trạng thái `Promise`. Ví dụ:
+
 ```js
 const promise = new Promise((resolve, reject) => {
   resolve('Promise resolved');  // Promise is resolved
@@ -146,6 +150,7 @@ promise.then((data) => {
 `.catch()` **Syntax** :`promise.catch(failureCallback)`
 
 Chúng tôi sử dụng `catch()` để xử lý lỗi. Nó dễ đọc hơn là xử lý các lỗi `failureCallback` bên trong `then()`. Ví dụ:
+
 ```js
 const Promise = new Promise ((giải quyết, từ chối) => {
   từ chối (Lỗi mới ('Đã xảy ra lỗi'));

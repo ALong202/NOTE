@@ -1,4 +1,4 @@
-# **Callback**
+# Callback
 
 Callback là một khái niệm không mới. Tuy nhiên, nó là một trong những khái niệm khá lằng ngoằng và dễ nhầm lẫn trong lập trình. Mình xin giới thiệu callback trong JavaScript. Lý do chọn JavaScript là vì callback trong JavaScript là đơn giản, dễ hiểu nhất. Bài viết nhắm tới đối tượng là các bạn beginner nên mình sẽ cố gắng viết đơn giản nhất có thể.
 

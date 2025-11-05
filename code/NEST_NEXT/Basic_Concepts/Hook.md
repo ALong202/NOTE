@@ -1,4 +1,4 @@
-# ⚓ Hook trong React
+# Hook trong React
 
 **Hook** là các **hàm đặc biệt trong React** (bắt đầu bằng tiền tố `use`) giúp bạn:
 

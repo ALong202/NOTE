@@ -1,4 +1,4 @@
-# 🧩 Decorator trong NestJS
+# Decorator trong NestJS
 
 **Decorator** là một *hàm đặc biệt* được dùng để **đánh dấu (annotate)** vào **class**, **phương thức**, **property** hoặc **parameter**  
 nhằm **thêm metadata** hoặc **thay đổi hành vi** của chúng.
