@@ -36,6 +36,7 @@
 
       - 🪶 [H1 — Tiêu đề lớn](<./code/NEST_NEXT/NEXT/CodeMD.md>)
     </details>
+  - 🪶 [Lệnh git](<./code/git.md>)
   - 🪶 [Setting prettier](<./code/SettingPrettier.md>)
 - 📘 **Other**
   - 📗 **test**
@@ -54,4 +55,4 @@
 
 ---
 
-🕓 *Cập nhật: 23:14:57 6/11/2025*
+🕓 *Cập nhật: 01:13:36 7/11/2025*
