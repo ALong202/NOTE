@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const rootDir = __dirname;
-const outputFile = path.join(rootDir, "index.md");
+const outputFile = path.join(rootDir, "readme.md");
 
 const ignoreDirs = [".git", ".vscode", "node_modules", ".idea", ".obsidian"];
 
