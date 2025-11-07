@@ -36,7 +36,9 @@
 
       - 🪶 [H1 — Tiêu đề lớn](<./code/NEST_NEXT/NEXT/CodeMD.md>)
     </details>
+  - 🪶 [Extending the E-Commerce Project](<./code/ecommerce_extension_plan.md>)
   - 🪶 [Lệnh git](<./code/git.md>)
+  - 🪶 [improve](<./code/improve.md>)
   - 🪶 [Setting prettier](<./code/SettingPrettier.md>)
 - 📘 **Other**
   - 📗 **test**
@@ -55,4 +57,4 @@
 
 ---
 
-🕓 *Cập nhật: 01:13:36 7/11/2025*
+🕓 *Cập nhật: 11:02:31 7/11/2025*
