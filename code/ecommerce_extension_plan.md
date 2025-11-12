@@ -120,9 +120,9 @@ This document summarizes the **current state of the Udemy course**, highlights *
                  │
       ┌──────────┴───────────┐
       ▼                      ▼
-┌──────────────┐     ┌─────────────────┐
+┌──────────────┐     ┌─────────────────────┐
 │ PostgreSQL DB│     │ Redis (Cache/Queue) │
-└──────────────┘     └─────────────────┘
+└──────────────┘     └─────────────────────┘
 
 Deployment:
 - Vercel (Frontend)

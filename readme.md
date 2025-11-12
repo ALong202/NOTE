@@ -34,7 +34,11 @@
     <details markdown="1">
       <summary>📙 NEXT</summary>
 
+      - 🪶 [Hiểu cơ bản về “Cache” trong Next.js](<./code/NEST_NEXT/NEXT/cache.md>)
       - 🪶 [H1 — Tiêu đề lớn](<./code/NEST_NEXT/NEXT/CodeMD.md>)
+      - 🪶 [generic type parameter trong TypeScript](<./code/NEST_NEXT/NEXT/genericType.md>)
+      - 🪶 [Grid Responsive](<./code/NEST_NEXT/NEXT/responsiveGrid.md>)
+      - 🪶 [Toán tử Spread (...) trong JavaScript / TypeScript](<./code/NEST_NEXT/NEXT/Spread.md>)
     </details>
   - 🪶 [Extending the E-Commerce Project](<./code/ecommerce_extension_plan.md>)
   - 🪶 [Lệnh git](<./code/git.md>)
@@ -57,4 +61,4 @@
 
 ---
 
-🕓 *Cập nhật: 11:02:31 7/11/2025*
+🕓 *Cập nhật: 13:29:39 12/11/2025*
